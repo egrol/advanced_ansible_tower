@@ -1,0 +1,8 @@
+---
+- name: list features for ad server
+  hosts: windows
+  gather_facts: false
+
+  roles:
+    - erol_win_ad_install
+
